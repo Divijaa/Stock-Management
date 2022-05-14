@@ -110,6 +110,10 @@ body
     cursor: pointer;
 }
 
+.submit-btn:hover{
+    background: transparent;
+}
+
 .btn-register
 {
     width: 100%;
@@ -126,6 +130,53 @@ body
     cursor: pointer;
 }
 
+.btn-register:hover{
+    background: transparent;
+}
+
+.btn-Adminlogin             
+{
+    width: 40%;
+    background: #000;;
+    border: 1px solid #fff;
+    margin: 0 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.btn-Adminlogin:hover{
+    background: #fff;
+    color: #000;
+}
+
+.btn-Userlogin{
+    width: 40%;
+    background: #000;
+    border: 1px solid #fff;
+    margin: 0 0 10px;
+    height: 32px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.btn-Userlogin:hover{
+    background: #fff;
+    color: #000;
+}
+
 .btn-login
 {
     width: 100%;
@@ -140,6 +191,10 @@ body
     outline: none;
     color: #fff;
     cursor: pointer;
+}
+
+.btn-login:hover{
+    background: transparent;
 }
 
 span
@@ -368,3 +423,4 @@ h1{
         padding:20px 5px;
     }
 }
+
